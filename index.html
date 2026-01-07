@@ -95,6 +95,22 @@
             background-color: #1d4ed8;
         }
 
+        .view-btn {
+            background-color: #60a5fa; /* Lighter blue */
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: background 0.2s;
+            white-space: nowrap;
+        }
+
+        .view-btn:hover {
+            background-color: #3b82f6;
+        }
+        
         .file-item.green:hover {
             border-color: #16a34a;
             background-color: #f0fdf4;
@@ -138,7 +154,10 @@
                     <span class="file-name">References List</span>
                     <span class="file-meta">PDF File</span>
                 </div>
-                <a href="BABS3_References_Y3945249.pdf" download class="download-btn">Download</a> 
+                <div class="btn-group">
+                    <a href="BABS3_References_Y3945249.pdf" target="_blank" class="view-btn">View</a>
+                    <a href="BABS3_References_Y3945249.pdf" download class="download-btn">Download</a> 
+                </div>
             </div>
             
             <div class="file-item">
@@ -151,7 +170,7 @@
 
             <div class="file-item">
                 <div class="file-info">
-                    <span class="file-name">Model File</span>
+                    <span class="file-name">Netlogog Model File</span>
                     <span class="file-meta">NLOGO File</span>
                 </div>
                 <a href="BABS3_NetLogo_Model_Y3945249.nlogo" download class="download-btn">Download</a>
@@ -159,7 +178,7 @@
 
             <div class="file-item">
                 <div class="file-info">
-                    <span class="file-name">Model Parameters</span>
+                    <span class="file-name">Netlogo Model Parameters</span>
                     <span class="file-meta">XML File</span>
                 </div>
                 <a href="BABS3_NetLogo_Parameters_Y3945249.xml" download class="download-btn">Download</a>
@@ -186,7 +205,10 @@
                     <span class="file-name">Poster</span>
                     <span class="file-meta">PDF File</span>
                 </div>
-                <a href="BABS3_Poster_Assessment_Y3945249.pdf" download class="download-btn">Download</a>
+                <div class="btn-group">
+                    <a href="BABS3_Poster_Assessment_Y3945249.pdf" target="_blank" class="view-btn">View</a>
+                    <a href="BABS3_Poster_Assessment_Y3945249.pdf" download class="download-btn">Download</a>
+                </div>
             </div>
             
             </div>
